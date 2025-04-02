@@ -76,7 +76,7 @@ class SelectEntryFragment : Fragment() {
             val datePickerDialog = DatePickerDialog(
                 requireContext(),
                 { _: DatePicker, selectedYear: Int, selectedMonth: Int, selectedDay: Int ->
-                    val formattedDate = "$selectedDay/${selectedMonth + 1}/$selectedYear"
+                    val formattedDate = String.format("%02d/%02d/%d", selectedDay, selectedMonth + 1, selectedYear)
                     binding.filterVaccineDate.setText(formattedDate)
                 },
                 year, month, day

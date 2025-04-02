@@ -61,7 +61,7 @@ class AddNewPatientFragment : Fragment() {
                 val selectedCalendar = Calendar.getInstance()
                 selectedCalendar.set(year, month, dayOfMonth)
 
-                val selectedDate = "$dayOfMonth/${month + 1}/$year"
+                val selectedDate = String.format("%02d/%02d/%d", dayOfMonth, month + 1, year)
                 binding.Birthday.setText(selectedDate)
             }
 

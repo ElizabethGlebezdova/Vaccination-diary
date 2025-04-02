@@ -73,7 +73,7 @@ class EditPatientFragment : Fragment() {
         binding.Birthday.setOnClickListener {
             val calendar = Calendar.getInstance()
             val dateSetListener = DatePickerDialog.OnDateSetListener { _, year, month, dayOfMonth ->
-                val selectedDate = String.format("%02d.%02d.%d", dayOfMonth, month + 1, year)
+                val selectedDate = String.format("%02d/%02d/%d", dayOfMonth, month + 1, year)
                 binding.Birthday.setText(selectedDate)
             }
 

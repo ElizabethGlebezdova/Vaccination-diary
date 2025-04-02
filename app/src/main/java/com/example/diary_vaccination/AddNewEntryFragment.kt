@@ -89,7 +89,7 @@ class AddNewEntryFragment : Fragment() {
         binding.editTextDate.setOnClickListener {
             val calendar = Calendar.getInstance()
             val dateSetListener = DatePickerDialog.OnDateSetListener { _, year, month, dayOfMonth ->
-                val selectedDate = String.format("%02d.%02d.%d", dayOfMonth, month + 1, year)
+                val selectedDate = String.format("%02d/%02d/%d", dayOfMonth, month + 1, year)
                 binding.editTextDate.setText(selectedDate)
             }
             val datePickerDialog = DatePickerDialog(
@@ -110,7 +110,7 @@ class AddNewEntryFragment : Fragment() {
             val minute = calendar.get(Calendar.MINUTE)
             val timeSetListener = TimePickerDialog.OnTimeSetListener { _, selectedHour, selectedMinute ->
                 val selectedTime = String.format("%02d:%02d", selectedHour, selectedMinute)
-                if (selectedDate == String.format("%02d.%02d.%d",
+                if (selectedDate == String.format("%02d/%02d/%d",
                         calendar.get(Calendar.DAY_OF_MONTH),
                         calendar.get(Calendar.MONTH) + 1,
                         calendar.get(Calendar.YEAR)
