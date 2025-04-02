@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Дневник вакцинации</string>
+    <string name="add_patient">Добавить пациента</string>
+    <string name="add_entry">Добавить запись</string>
+    <string name="look_all_entry">Посмотреть все записи</string>
+    <string name="look_all_patients">Посмотреть всех пациентов</string>
+    <string name="settings">Настройки</string>
+    <string name="info">Информация</string>
+    <string name="info_text">Это приложение предназначено для ведения статистики вакцинации</string>
+    <string name="select_a_patient">Выберите пациента</string>
+    <string name="choose_vaccine">Выберите вакцину</string>
+    <string name="choose_component">Выберите компонент</string>
+    <string name="select_date_and_time_of_vaccine">Выберите дату и время вакцинации</string>
+    <string name="save_button">Сохранить</string>
+    <string name="surname">Отчество</string>
+    <string name="name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="date_birth">Дата рождения</string>
+    <string name="clear_patients">Очистить пациентов</string>
+    <string name="clear">Очистить</string>
+    <string name="clear_entries">Очистить записи</string>
+    <string name="add_vaccine">Добавить вакцину</string>
+    <string name="vaccine_name_hint">Название вакцины</string>
+    <string name="two_component">Двухкомпонентная</string>
+    <string name="vaccine_list">Список вакцин</string>
+    <string name="select_header_vaccine">Вакцина:</string>
+    <string name="select_count_components">Компоненты:</string>
+    <string name="component">Компонент:</string>
+    <string name="date">Дата:</string>
+    <string name="time">Время:</string>
+    <string name="edit">Редактировать</string>
+    <string name="search_by_last_name">Поиск по фамилии</string>
+    <string name="filter_text">Фильтр</string>
+    <string name="search_by_date">Поиск по дате</string>
+    <string name="nav_main">Главная</string>
+    <string name="nav_add_patient">Добавить пациента</string>
+    <string name="hello_blank_fragment">Привет!</string>
+    <string name="nav_add_entry">Добавить запись</string>
+    <string name="nav_select_entry">Выбрать запись</string>
+    <string name="nav_select_patient">Выбрать пациента</string>
+    <string name="nav_edit_patient">Редактировать пациента</string>
+    <string name="nav_edit_entry">Редактировать запись</string>
+    <string name="nav_settings">Настройки</string>
+</resources>

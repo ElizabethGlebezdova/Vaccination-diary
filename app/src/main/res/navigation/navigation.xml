@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation.xml"
+    app:startDestination="@id/mainMenuFragment">
+
+    <fragment
+        android:id="@+id/mainMenuFragment"
+        android:name="com.example.diary_vaccination.MainMenuFragment"
+        android:label="@string/nav_main" >
+        <action
+            android:id="@+id/action_mainMenuFragment_to_addNewPatientFragment"
+            app:destination="@id/addNewPatientFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_addNewEntryFragment"
+            app:destination="@id/addNewEntryFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_selectEntryFragment"
+            app:destination="@id/selectEntryFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_selectPatientFragment"
+            app:destination="@id/selectPatientFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_settingsMenuFragment"
+            app:destination="@id/settingsMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewEntryFragment"
+        android:name="com.example.diary_vaccination.AddNewEntryFragment"
+        android:label="@string/nav_add_entry" >
+        <action
+            android:id="@+id/action_addNewEntryFragment_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewPatientFragment"
+        android:name="com.example.diary_vaccination.AddNewPatientFragment"
+        android:label="@string/nav_add_patient" >
+        <action
+            android:id="@+id/action_addNewPatientFragment_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectEntryFragment"
+        android:name="com.example.diary_vaccination.SelectEntryFragment"
+        android:label="@string/nav_select_entry" >
+        <action
+            android:id="@+id/action_selectEntryFragment_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+        <action
+            android:id="@+id/action_selectEntryFragment_to_editEntryFragment"
+            app:destination="@id/editEntryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectPatientFragment"
+        android:name="com.example.diary_vaccination.SelectPatientFragment"
+        android:label="@string/nav_select_patient" >
+        <action
+            android:id="@+id/action_selectPatientFragment_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+        <action
+            android:id="@+id/action_selectPatientFragment_to_editPatientFragment"
+            app:destination="@id/editPatientFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsMenuFragment"
+        android:name="com.example.diary_vaccination.SettingsMenuFragment"
+        android:label="@string/nav_settings" >
+        <action
+            android:id="@+id/action_settingsMenuFragment_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editEntryFragment"
+        android:name="com.example.diary_vaccination.EditEntryFragment"
+        android:label="@string/nav_edit_entry" >
+        <argument
+            android:name="entryId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/editPatientFragment"
+        android:name="com.example.diary_vaccination.EditPatientFragment"
+        android:label="@string/nav_edit_patient" >
+        <argument
+            android:name="patientId"
+            app:argType="string" />
+    </fragment>
+</navigation>

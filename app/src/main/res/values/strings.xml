@@ -1,0 +1,50 @@
+<resources>
+    <string name="nav_main">Main</string>
+    <string name="nav_add_patient">Add New Patient</string>
+    <string name="nav_add_entry">Add New Entry</string>
+    <string name="nav_select_entry">Select Entry</string>
+    <string name="nav_select_patient">Select Patient</string>
+    <string name="nav_edit_patient">Edit Patient</string>
+    <string name="nav_edit_entry">Edit Entry</string>
+    <string name="nav_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_patient">Add Patient</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="look_all_entry">Look all entry</string>
+    <string name="look_all_patients">Look all patients</string>
+    <string name="settings">Settings</string>
+    <string name="info">Info</string>
+    <string name="info_text">This application is designed to maintain vaccination statistics.</string>
+    <string name="select_a_patient">Select a Patient</string>
+    <string name="choose_vaccine">Choose Vaccine</string>
+    <string name="choose_component">Choose component</string>
+    <string name="select_date_and_time_of_vaccine">Select date and time of vaccine</string>
+    <string name="hint_date" translatable="false">01.01.2000</string>
+    <string name="hint_time" translatable="false">00:00</string>
+    <string name="save_button">Save</string>
+    <string name="surname">Surname</string>
+    <string name="name">Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="date_birth">Date Birth</string>
+    <string name="clear_patients">Clear patients</string>
+    <string name="clear">Clear</string>
+    <string name="clear_entries">Clear Entries</string>
+    <string name="add_vaccine">Add Vaccine</string>
+    <string name="vaccine_name_hint">Vaccine Name</string>
+    <string name="two_component">Two-component</string>
+    <string name="vaccine_list">Vaccine List</string>
+    <string name="select_header_vaccine">Vaccine:</string>
+    <string name="select_count_components">Components:</string>
+    <string name="component">Component:</string>
+    <string name="date">Date:</string>
+    <string name="time">Time:</string>
+    <string name="edit">Edit</string>
+    <string name="search_by_last_name">Search by Last Name</string>
+    <string name="filter_text">filter</string>
+    <string name="search_by_date">Search by Date</string>
+    <string-array name="spinner_test">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="app_name">Diary_Vaccination</string>
+</resources>

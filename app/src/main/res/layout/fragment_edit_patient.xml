@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddNewPatientFragment"
+        android:background="@color/primary">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <EditText
+                    android:id="@+id/LastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:hint="@string/last_name"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:padding="10dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_marginTop="12dp"/>
+
+                <EditText
+                    android:id="@+id/Surname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:hint="@string/surname"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/date_birth"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp"/>
+
+                <EditText
+                    android:id="@+id/Birthday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint_date"
+                    android:inputType="date"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:padding="10dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_marginTop="12dp"/>
+
+                <Button
+                    android:id="@+id/save_patient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="24dp"
+                    android:backgroundTint="@color/button_background"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:padding="12dp"
+                    android:text="@string/save_button"
+                    android:textColor="@color/button_text"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</layout>
